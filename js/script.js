@@ -3,21 +3,94 @@ $(document).ready(function(){
 
 	$('.carousel').carousel();
 
-	// $(".item_navbar")
-	// .mouseenter(function(){
+	$('.producto-mussi').hide();
+	$('.producto-bossi').hide();
+	$('.producto-velez').hide();
+	$('.producto-nautica').hide();
+	$('.producto-oakley').hide();
+	$('.producto-mh').hide();
+	$('.producto-puma').hide();
+	$('.producto-adiddas').hide();
 
 
-	// 		$(this).css("background-color", "white");
-	// 		$(".item_navbar__link").css("color", "steelblue");
+	$('.btn-mussi').click(function(){
+
+		$('.body').hide();
+		$('.producto-mussi').show();
+
+	});
 
 
+	$('.btn-bossi').click(function(){
+
+		$('.body').hide();
+		$('.producto-bossi').show();
+
+	});
+
+	$('.btn-velez').click(function(){
+
+		$('.body').hide();
+		$('.producto-velez').show();
+
+	});
+
+	$('.btn-nautica').click(function(){
+
+		$('.body').hide();
+		$('.producto-nautica').show();
+
+	});
+
+	$('.btn-oakley').click(function(){
+
+		$('.body').hide();
+		$('.producto-oakley').show();
+
+	});
 
 
-	// }).mouseleave(function() {
-			
-	// 		$(this).css("background-color", "steelblue");
-	// 		$(".item_navbar__link").css("color", "white");
-	// });
+	$('.btn-mh').click(function(){
+
+		$('.body').hide();
+		$('.producto-mh').show();
+
+	});
+
+	$('.btn-puma').click(function(){
+
+		$('.body').hide();
+		$('.producto-puma').show();
+
+	});
+
+	$('.btn-adiddas').click(function(){
+
+		$('.body').hide();
+		$('.producto-adiddas').show();
+
+	});
+
+
+	$('.btn-volver-inicio').click(function(){
+
+		$('.producto-mussi').hide();
+		$('.producto-bossi').hide();
+		$('.producto-velez').hide();
+		$('.producto-nautica').hide();
+		$('.producto-oakley').hide();
+		$('.producto-mh').hide();
+		$('.producto-puma').hide();
+		$('.producto-adiddas').hide();
+		$('.body').show();
+
+
+	});
+
+
+	
+	
+	
 
 
 

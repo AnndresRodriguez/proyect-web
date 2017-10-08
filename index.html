@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Parcial Web</title>
+    <title>La feria</title>
     <script src="js/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,7 +14,8 @@
 </head>
 <body>
 
-  
+
+
   <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -67,6 +68,7 @@
 </nav>
 
 
+ <span class="body">
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -100,18 +102,24 @@
   </div>
 </div>
 
+
+
+
   <section class="container seccion-one">
     
     <div class="seccion-one__container">
 
         <div class="seccion-one__container--item">
             <img src="img/feria.moda-1.jpg" class="img-responsive">
-            <button class="btn btn-primary btn-seccion-one">Ver</button>    
+            <button class="btn btn-primary btn-seccion-one">Ver</button> 
+              
         </div>
 
+
+
         <div class="seccion-one__container--item">
-          <img src="img/feria.moda-2.jpg" class="img-responsive">
-          <button class="btn btn-primary btn-seccion-one">Ver</button>
+      <img src="img/feria.moda-2.jpg" class="img-responsive"> 
+         <button class="btn btn-primary btn-seccion-one">Ver</button> 
         </div>
       
 
@@ -120,7 +128,7 @@
     <div class="seccion-one__container">
 
        <div class="seccion-one__container--item">
-          <img src="img/feria.moda-3.jpg" class="img-responsive">
+          <img src="img/feria.moda-3.jpg" class="img-responsive"> 
           <button class="btn btn-primary btn-seccion-one">Ver</button>
         </div>
 
@@ -143,22 +151,22 @@
 
         <div class="seccion-marcas__container--item item__mussi">
             <img src="img/mussi-logo-el-tesoro.png" class="img-responsive">
-            <button class="btn btn-primary btn-seccion-marcas">Ver</button>    
+            <button class="btn btn-primary btn-seccion-marcas btn-mussi">Ver</button>    
         </div>
 
         <div class="seccion-marcas__container--item item__bossi">
            <img src="img/bossi.png" class="img-responsive">
-          <button class="btn btn-primary btn-seccion-marcas">Ver</button>
+          <button class="btn btn-primary btn-seccion-marcas btn-bossi">Ver</button>
         </div>
 
         <div class="seccion-marcas__container--item item__velez">
            <img src="img/velez.jpg" class="img-responsive">
-          <button class="btn btn-primary btn-seccion-marcas">Ver</button>
+          <button class="btn btn-primary btn-seccion-marcas btn-velez">Ver</button>
         </div>
 
         <div class="seccion-marcas__container--item item__nautica">
           <img src="img/nautica.jpg" class="img-responsive">
-          <button class="btn btn-primary btn-seccion-marcas">Ver</button>
+          <button class="btn btn-primary btn-seccion-marcas btn-nautica">Ver</button>
         </div>
       
 
@@ -169,23 +177,23 @@
 
         <div class="seccion-marcas__container--item item__oakley">
             <img src="img/tirables-y-cristales-oakley.jpg" class="img-responsive">
-            <button class="btn btn-primary btn-seccion-marcas">Ver</button> 
+            <button class="btn btn-primary btn-seccion-marcas btn-oakley" >Ver</button> 
         </div>
 
         <div class="seccion-marcas__container--item item__mh">
           <img src="img/mario-hernandez.jpg" class="img-responsive">
-          <button class="btn btn-primary btn-seccion-marcas">Ver</button>
+          <button class="btn btn-primary btn-seccion-marcas btn-mh">Ver</button>
 
         </div>
 
         <div class="seccion-marcas__container--item item__puma">
           <img src="img/puma.jpg" class="img-responsive">
-          <button class="btn btn-primary btn-seccion-marcas">Ver</button>
+          <button class="btn btn-primary btn-seccion-marcas btn-puma">Ver</button>
         </div>
 
         <div class="seccion-marcas__container--item item__adiddas">
           <img src="img/adidas.jpg" class="img-responsive">
-          <button class="btn btn-primary btn-seccion-marcas">Ver</button>
+          <button class="btn btn-primary btn-seccion-marcas btn-adiddas">Ver</button>
         </div>
       
 
@@ -220,7 +228,7 @@
             <div class="contenedor-boton-descripcion">
               
              <p class="descripcion-producto">Zapatos de vestir</p>
-             <button class="btn btn-primary btn-seccion-productos">Ver</button>  
+             <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-vestir">Ver</button>  
 
             </div>
 
@@ -231,8 +239,8 @@
           <img src="img/zapatos-deportivos.jpg" class="img-responsive">
 
            <div class="contenedor-boton-descripcion">
-          <p class="descripcion-producto">Zapatos deportivos</p>
-          <button class="btn btn-primary btn-seccion-productos">Ver</button>
+          <p class="descripcion-producto">Deportivos</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-deportivos">Ver</button>
           </div>
         </div>
 
@@ -241,7 +249,7 @@
 
           <div class="contenedor-boton-descripcion">
           <p class="descripcion-producto">Tacones</p>
-          <button class="btn btn-primary btn-seccion-productos">Ver</button>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#tacones">Ver</button>
           </div>
 
         </div>
@@ -250,7 +258,7 @@
           <img src="img/baletas.jpg" class="img-responsive">
           <div class="contenedor-boton-descripcion">
           <p class="descripcion-producto">Baletas</p>
-          <button class="btn btn-primary btn-seccion-productos">Ver</button>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#baletas">Ver</button>
            </div>
         </div>
       
@@ -264,7 +272,7 @@
            <img src="img/mocasines.jpg" class="img-responsive">
           <div class="contenedor-boton-descripcion">
              <p class="descripcion-producto">Mocasines</p>
-            <button class="btn btn-primary btn-seccion-productos">Ver</button> 
+            <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#mocasines">Ver</button> 
           </div>   
         </div>
 
@@ -272,7 +280,7 @@
           <img src="img/botas-militares.jpg" class="img-responsive">
           <div class="contenedor-boton-descripcion">
           <p class="descripcion-producto">Botas</p>
-          <button class="btn btn-primary btn-seccion-productos">Ver</button>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#botas">Ver</button>
           </div> 
         </div>
 
@@ -280,7 +288,7 @@
           <img src="img/sandalias.jpg" class="img-responsive">
           <div class="contenedor-boton-descripcion">
           <p class="descripcion-producto">Sandalias</p>
-          <button class="btn btn-primary btn-seccion-productos">Ver</button>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#sandalias">Ver</button>
           </div> 
         </div>
 
@@ -288,7 +296,7 @@
           <img src="img/pantuflas.jpg" class="img-responsive">
             <div class="contenedor-boton-descripcion">
           <p class="descripcion-producto">Pantuflas</p>
-          <button class="btn btn-primary btn-seccion-productos">Ver</button>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#pantuflas">Ver</button>
           </div>
         </div>
       
@@ -337,6 +345,9 @@
         </div>
 
 
+
+
+
     </div>
 
 
@@ -346,7 +357,18 @@
 
 
   <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
+ 
+  
+
+
+
+  <footer class="footer">
+    <p>Copyright &copy La Feria 2017</p>
+  </footer>
+
+</span>
+
+   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
@@ -407,13 +429,1144 @@
   </div>
 
 
-  <footer class="footer">
-    <p>Copyright &copy La Feria 2017</p>
-  </footer>
+
+    <div class="modal fade" id="zapatos-vestir" role="dialog">
+     <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Detalles del producto</h4> 
+        </div>
+        <div class="modal-body">
+          <div class="contenedor-modal">
+            <div class="contenedor-imagen-descripcion">
+        
+                <img src="img/zapatos-vestir.jpg" class="img-responsive">
+                <h1>Zapatos de vestir</h1>
+                <p>Este modelo con pespunte en la puntera es el más clásico y formal de todos. Debido a su elegancia y corrección, este tipo de calzado en color negro se hace apropiado tanto para el día a día, con traje, como para las ocasiones más formales en las que se precisa el uso de chaqué. Es el zapato de cordones básico.</p>
+
+                <button class="btn btn-primary">Contactar</button>
+
+            </div>
+              
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <h4>Su información será enviada al fabricante para que lo contacte</h4>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+   <div class="modal fade" id="zapatos-deportivos" role="dialog">
+     <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Detalles del producto</h4> 
+        </div>
+        <div class="modal-body">
+          <div class="contenedor-modal">
+            <div class="contenedor-imagen-descripcion">
+        
+                <img src="img/zapatos-deportivos.jpg" class="img-responsive">
+                <h1>Zapatos deportivos</h1>
+                <p>Es un tipo de calzado, fabricado generalmente en piel, lona y/o materiales sintéticos con suela de goma para favorecer una mayor flexibilidad del calzado. Fueron diseñadas originalmente para hacer deporte, aunque hoy en día muchas personas (tanto jóvenes como adultos) los usan como calzado habitual. Se pueden utilizar con calcetines o sin ellos.</p>
+
+                <button class="btn btn-primary">Contactar</button>
+
+            </div>
+              
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <h4>Su información será enviada al fabricante para que lo contacte</h4>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="tacones" role="dialog">
+     <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Detalles del producto</h4> 
+        </div>
+        <div class="modal-body">
+          <div class="contenedor-modal">
+            <div class="contenedor-imagen-descripcion">
+        
+                <img src="img/tacones.jpg" class="img-responsive">
+                <h1>Tacones</h1>
+                <p>Los zapatos de tacón, zapatos de taco, zapatillas de tacón o simplemente tacones son un tipo de calzado que se caracteriza por elevar el talón sobre la altura de los dedos de los pies femeninos. Cuando los dedos de los pies y el talón se elevan por igual se denominan zapatos de plataforma. El efecto de este tipo de calzado es el de parecer más alto.1​ Los zapatos de tacones altos han derivado en una gran variedad de formas y estilos entre ellos se encuentran los tacones de aguja (stilettos), los pump, block, tapered, blade y wedge.</p>
+
+                <button class="btn btn-primary">Contactar</button>
+
+            </div>
+              
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <h4>Su información será enviada al fabricante para que lo contacte</h4>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+
+    <div class="modal fade" id="baletas" role="dialog">
+     <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Detalles del producto</h4> 
+        </div>
+        <div class="modal-body">
+          <div class="contenedor-modal">
+            <div class="contenedor-imagen-descripcion">
+        
+                <img src="img/baletas.jpg" class="img-responsive">
+                <h1>Baletas</h1>
+                <p>Las baletas nautica son un disseño nuevo y variado de calzado que puede ser usado en cualqueier momento en cualquier ocasion y combina lo formal de un zapato de vestir con la comodidad de un zapato deportivo</p>
+
+                <button class="btn btn-primary">Contactar</button>
+
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <h4>Su información será enviada al fabricante para que lo contacte</h4>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="mocasines" role="dialog">
+     <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Detalles del producto</h4> 
+        </div>
+        <div class="modal-body">
+          <div class="contenedor-modal">
+            <div class="contenedor-imagen-descripcion">
+        
+                <img src="img/mocasines.jpg" class="img-responsive">
+                <h1>Mocasines</h1>
+                <p>Los mocasines Oakley son un zapato bajo de piel flexible y suela de cuero, sin ningún tipo de cierre, que lleva una pieza ancha en el empeine cosida a los lados del zapato; puede llevar otros complementos, como borlas o cordones de adorno.</p>
+
+                <button class="btn btn-primary">Contactar</button>
+
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <h4>Su información será enviada al fabricante para que lo contacte</h4>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+ <div class="modal fade" id="botas" role="dialog">
+     <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Detalles del producto</h4> 
+        </div>
+        <div class="modal-body">
+          <div class="contenedor-modal">
+            <div class="contenedor-imagen-descripcion">
+        
+                <img src="img/botas-militares.jpg" class="img-responsive">
+                <h1>Botas</h1>
+                <p>Las Botas Mario Hernandez son un tipo de calzado que cubre el pie y parte del tobillo y que puede llegar hasta la rodilla o la ingle. En un principio fueron diseñadas como calzado de trabajo con la finalidad de mejorar la protección del pie y la articulación del tobillo. Existen infinidad de variedades según altura, color, material y estilo. La mayoría tiene un tacón, claramente diferenciado de la suela aunque estén ambos fabricados en el mismo material.</p>
+
+                <button class="btn btn-primary">Contactar</button>
+
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <h4>Su información será enviada al fabricante para que lo contacte</h4>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="sandalias" role="dialog">
+     <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Detalles del producto</h4> 
+        </div>
+        <div class="modal-body">
+          <div class="contenedor-modal">
+            <div class="contenedor-imagen-descripcion">
+        
+                <img src="img/sandalias.jpg" class="img-responsive">
+                <h1>Sandalias</h1>
+                <p>La sandalia de velez es un tipo de calzado, que consiste en una suela resistente atada al pie mediante cuerdas, cintas o bandas de material ligero, quedando los dedos y otras partes del pie al descubierto. En distintos países y regiones se utilizan tipos de sandalia muy diferentes en cuanto a materiales, calidades, técnicas o trazado de las sujeciones. La palabra sandalia puede referirse a un amplio rango de variantes, desde un sofisticado calzado femenino de tacón alto hasta a una humilde chancleta.</p>
+
+                <button class="btn btn-primary">Contactar</button>
+
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <h4>Su información será enviada al fabricante para que lo contacte</h4>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="pantuflas" role="dialog">
+     <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Detalles del producto</h4> 
+        </div>
+        <div class="modal-body">
+          <div class="contenedor-modal">
+            <div class="contenedor-imagen-descripcion">
+        
+                <img src="img/pantuflas.jpg" class="img-responsive">
+                <h1>Pantuflas</h1>
+                <p>Las pantuflas Mussi son un tipo de calzado ligero y suave de uso doméstico. Generalmente tienen suelas finas y flexibles, con dibujos poco profundos para prevenir resbalones en suelos lisos. En cambio, los zapatos y botas son en general hechos de lona, plástico, goma o cuero, y suelen tener suelas duras</p>
+
+                <button class="btn btn-primary">Contactar</button>
+
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <h4>Su información será enviada al fabricante para que lo contacte</h4>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
 
 
 
 
+
+
+<span class="producto-mussi">
+
+<div class="container">
+  
+  <div class="jumbotron">
+      
+      <img src="img/mussi-header.png" class="img-responsive">
+ 
+    </div>
+
+
+    <section class="container seccion-productos">
+    
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+
+            <img src="img/zapatos-vestir.jpg" class="img-responsive">
+            
+            <div class="contenedor-boton-descripcion">
+              
+             <p class="descripcion-producto">Zapatos de vestir</p>
+             <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-vestir">Ver</button>  
+
+            </div>
+
+             
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/zapatos-deportivos.jpg" class="img-responsive">
+
+           <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Zapatos deportivos</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-deportivos">Ver</button>
+          </div>
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/tacones.jpg" class="img-responsive">
+
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Tacones</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#tacones">Ver</button>
+          </div>
+
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/baletas.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Baletas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#baletas">Ver</button>
+           </div>
+        </div>
+      
+
+    </div>
+
+
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+           <img src="img/mocasines.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+             <p class="descripcion-producto">Mocasines</p>
+            <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#mocasines">Ver</button> 
+          </div>   
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/botas-militares.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Botas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#botas">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/sandalias.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Sandalias</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#sandalias">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/pantuflas.jpg" class="img-responsive">
+            <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Pantuflas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#pantuflas">Ver</button>
+          </div>
+        </div>
+      
+
+    </div>
+
+
+   <div class="contenedor-boton-descripcion">
+
+    <button class="btn btn-primary btn-tipo-producto btn-volver-inicio">Volver al inicio</button>
+   
+   </div>
+
+  </section>
+
+</div>
+
+</span>
+
+
+<span class="producto-bossi">
+
+<div class="container">
+  
+  <div class="jumbotron">
+      
+      <img src="img/bossi.png" class="img-responsive">
+ 
+    </div>
+
+
+    <section class="container seccion-productos">
+    
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+
+            <img src="img/zapatos-vestir.jpg" class="img-responsive">
+            
+            <div class="contenedor-boton-descripcion">
+              
+             <p class="descripcion-producto">Zapatos de vestir</p>
+             <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-vestir">Ver</button>  
+
+            </div>
+
+             
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/zapatos-deportivos.jpg" class="img-responsive">
+
+           <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Zapatos deportivos</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-deportivos">Ver</button>
+          </div>
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/tacones.jpg" class="img-responsive">
+
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Tacones</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#tacones">Ver</button>
+          </div>
+
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/baletas.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Baletas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#baletas">Ver</button>
+           </div>
+        </div>
+      
+
+    </div>
+
+
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+           <img src="img/mocasines.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+             <p class="descripcion-producto">Mocasines</p>
+            <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#mocasines">Ver</button> 
+          </div>   
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/botas-militares.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Botas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#botas">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/sandalias.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Sandalias</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#sandalias">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/pantuflas.jpg" class="img-responsive">
+            <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Pantuflas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#pantuflas">Ver</button>
+          </div>
+        </div>
+      
+
+    </div>
+
+
+   <div class="contenedor-boton-descripcion">
+
+    <button class="btn btn-primary btn-tipo-producto btn-volver-inicio">Volver al inicio</button>
+   
+   </div>
+
+  </section>
+
+</div>
+
+</span>
+
+
+<span class="producto-velez">
+
+<div class="container">
+  
+  <div class="jumbotron">
+      
+      <img src="img/velez-header.png" class="img-responsive">
+ 
+    </div>
+
+
+    <section class="container seccion-productos">
+    
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+
+            <img src="img/zapatos-vestir.jpg" class="img-responsive">
+            
+            <div class="contenedor-boton-descripcion">
+              
+             <p class="descripcion-producto">Zapatos de vestir</p>
+             <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-vestir">Ver</button>  
+
+            </div>
+
+             
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/zapatos-deportivos.jpg" class="img-responsive">
+
+           <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Zapatos deportivos</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-deportivos">Ver</button>
+          </div>
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/tacones.jpg" class="img-responsive">
+
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Tacones</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#tacones">Ver</button>
+          </div>
+
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/baletas.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Baletas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#baletas">Ver</button>
+           </div>
+        </div>
+      
+
+    </div>
+
+
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+           <img src="img/mocasines.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+             <p class="descripcion-producto">Mocasines</p>
+            <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#mocasines">Ver</button> 
+          </div>   
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/botas-militares.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Botas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#botas">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/sandalias.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Sandalias</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#sandalias">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/pantuflas.jpg" class="img-responsive">
+            <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Pantuflas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#pantuflas">Ver</button>
+          </div>
+        </div>
+      
+
+    </div>
+
+
+   <div class="contenedor-boton-descripcion">
+
+    <button class="btn btn-primary btn-tipo-producto btn-volver-inicio">Volver al inicio</button>
+   
+   </div>
+
+  </section>
+
+</div>
+
+</span>
+
+
+<span class="producto-nautica">
+
+<div class="container">
+  
+  <div class="jumbotron">
+      
+      <img src="img/nautica-header.png" class="img-responsive">
+ 
+    </div>
+
+
+    <section class="container seccion-productos">
+    
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+
+            <img src="img/zapatos-vestir.jpg" class="img-responsive">
+            
+            <div class="contenedor-boton-descripcion">
+              
+             <p class="descripcion-producto">Zapatos de vestir</p>
+             <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-vestir">Ver</button>  
+
+            </div>
+
+             
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/zapatos-deportivos.jpg" class="img-responsive">
+
+           <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Zapatos deportivos</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-deportivos">Ver</button>
+          </div>
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/tacones.jpg" class="img-responsive">
+
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Tacones</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#tacones">Ver</button>
+          </div>
+
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/baletas.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Baletas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#baletas">Ver</button>
+           </div>
+        </div>
+      
+
+    </div>
+
+
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+           <img src="img/mocasines.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+             <p class="descripcion-producto">Mocasines</p>
+            <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#mocasines">Ver</button> 
+          </div>   
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/botas-militares.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Botas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#botas">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/sandalias.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Sandalias</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#sandalias">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/pantuflas.jpg" class="img-responsive">
+            <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Pantuflas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#pantuflas">Ver</button>
+          </div>
+        </div>
+      
+
+    </div>
+
+
+   <div class="contenedor-boton-descripcion">
+
+    <button class="btn btn-primary btn-tipo-producto btn-volver-inicio">Volver al inicio</button>
+   
+   </div>
+
+  </section>
+
+</div>
+
+</span>
+
+
+<span class="producto-oakley">
+
+<div class="container">
+  
+  <div class="jumbotron">
+      
+      <img src="img/oackley-header.png" class="img-responsive">
+ 
+    </div>
+
+
+    <section class="container seccion-productos">
+    
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+
+            <img src="img/zapatos-vestir.jpg" class="img-responsive">
+            
+            <div class="contenedor-boton-descripcion">
+              
+             <p class="descripcion-producto">Zapatos de vestir</p>
+             <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-vestir">Ver</button>  
+
+            </div>
+
+             
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/zapatos-deportivos.jpg" class="img-responsive">
+
+           <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Zapatos deportivos</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-deportivos">Ver</button>
+          </div>
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/tacones.jpg" class="img-responsive">
+
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Tacones</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#tacones">Ver</button>
+          </div>
+
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/baletas.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Baletas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#baletas">Ver</button>
+           </div>
+        </div>
+      
+
+    </div>
+
+
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+           <img src="img/mocasines.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+             <p class="descripcion-producto">Mocasines</p>
+            <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#mocasines">Ver</button> 
+          </div>   
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/botas-militares.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Botas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#botas">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/sandalias.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Sandalias</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#sandalias">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/pantuflas.jpg" class="img-responsive">
+            <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Pantuflas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#pantuflas">Ver</button>
+          </div>
+        </div>
+      
+
+    </div>
+
+
+   <div class="contenedor-boton-descripcion">
+
+    <button class="btn btn-primary btn-tipo-producto btn-volver-inicio">Volver al inicio</button>
+   
+   </div>
+
+  </section>
+
+</div>
+
+</span>
+
+<span class="producto-mh">
+
+<div class="container">
+  
+  <div class="jumbotron">
+      
+      <img src="img/mh-header.png" class="img-responsive">
+ 
+    </div>
+
+
+    <section class="container seccion-productos">
+    
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+
+            <img src="img/zapatos-vestir.jpg" class="img-responsive">
+            
+            <div class="contenedor-boton-descripcion">
+              
+             <p class="descripcion-producto">Zapatos de vestir</p>
+             <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-vestir">Ver</button>  
+
+            </div>
+
+             
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/zapatos-deportivos.jpg" class="img-responsive">
+
+           <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Zapatos deportivos</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-deportivos">Ver</button>
+          </div>
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/tacones.jpg" class="img-responsive">
+
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Tacones</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#tacones">Ver</button>
+          </div>
+
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/baletas.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Baletas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#baletas">Ver</button>
+           </div>
+        </div>
+      
+
+    </div>
+
+
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+           <img src="img/mocasines.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+             <p class="descripcion-producto">Mocasines</p>
+            <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#mocasines">Ver</button> 
+          </div>   
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/botas-militares.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Botas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#botas">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/sandalias.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Sandalias</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#sandalias">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/pantuflas.jpg" class="img-responsive">
+            <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Pantuflas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#pantuflas">Ver</button>
+          </div>
+        </div>
+      
+
+    </div>
+
+
+   <div class="contenedor-boton-descripcion">
+
+    <button class="btn btn-primary btn-tipo-producto btn-volver-inicio">Volver al inicio</button>
+   
+   </div>
+
+  </section>
+
+</div>
+
+</span>
+
+
+<span class="producto-puma">
+
+<div class="container">
+  
+  <div class="jumbotron">
+      
+      <img src="img/puma-header.png" class="img-responsive">
+ 
+    </div>
+
+
+    <section class="container seccion-productos">
+    
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+
+            <img src="img/zapatos-vestir.jpg" class="img-responsive">
+            
+            <div class="contenedor-boton-descripcion">
+              
+             <p class="descripcion-producto">Zapatos de vestir</p>
+             <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-vestir">Ver</button>  
+
+            </div>
+
+             
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/zapatos-deportivos.jpg" class="img-responsive">
+
+           <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Zapatos deportivos</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-deportivos">Ver</button>
+          </div>
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/tacones.jpg" class="img-responsive">
+
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Tacones</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#tacones">Ver</button>
+          </div>
+
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/baletas.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Baletas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#baletas">Ver</button>
+           </div>
+        </div>
+      
+
+    </div>
+
+
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+           <img src="img/mocasines.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+             <p class="descripcion-producto">Mocasines</p>
+            <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#mocasines">Ver</button> 
+          </div>   
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/botas-militares.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Botas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#botas">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/sandalias.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Sandalias</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#sandalias">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/pantuflas.jpg" class="img-responsive">
+            <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Pantuflas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#pantuflas">Ver</button>
+          </div>
+        </div>
+      
+
+    </div>
+
+
+   <div class="contenedor-boton-descripcion">
+
+    <button class="btn btn-primary btn-tipo-producto btn-volver-inicio">Volver al inicio</button>
+   
+   </div>
+
+  </section>
+
+</div>
+
+</span>
+
+
+<span class="producto-adiddas">
+
+<div class="container">
+  
+  <div class="jumbotron">
+      
+      <img src="img/adiddas-header.png" class="img-responsive">
+ 
+    </div>
+
+
+    <section class="container seccion-productos">
+    
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+
+            <img src="img/zapatos-vestir.jpg" class="img-responsive">
+            
+            <div class="contenedor-boton-descripcion">
+              
+             <p class="descripcion-producto">Zapatos de vestir</p>
+             <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-vestir">Ver</button>  
+
+            </div>
+
+             
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/zapatos-deportivos.jpg" class="img-responsive">
+
+           <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Zapatos deportivos</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#zapatos-deportivos">Ver</button>
+          </div>
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/tacones.jpg" class="img-responsive">
+
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Tacones</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#tacones">Ver</button>
+          </div>
+
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/baletas.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Baletas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#baletas">Ver</button>
+           </div>
+        </div>
+      
+
+    </div>
+
+
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+           <img src="img/mocasines.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+             <p class="descripcion-producto">Mocasines</p>
+            <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#mocasines">Ver</button> 
+          </div>   
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/botas-militares.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Botas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#botas">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/sandalias.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Sandalias</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#sandalias">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/pantuflas.jpg" class="img-responsive">
+            <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Pantuflas</p>
+          <button class="btn btn-primary btn-seccion-productos" data-toggle="modal" data-target="#pantuflas">Ver</button>
+          </div>
+        </div>
+      
+
+    </div>
+
+
+   <div class="contenedor-boton-descripcion">
+
+    <button class="btn btn-primary btn-tipo-producto btn-volver-inicio">Volver al inicio</button>
+   
+   </div>
+
+  </section>
+
+</div>
+
+</span>
 
     <script src="js/script.js"></script>
 

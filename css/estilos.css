@@ -406,20 +406,12 @@ html {
 }
 @media screen and (max-width: 425px) {
   .seccion-one .seccion-one__container {
-    flex-direction: column;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .seccion-one .seccion-one__container {
     height: 300px;
-    justify-content: space-around;
-  }
-  .seccion-one .seccion-one__container .seccion-one__container--item {
-    width: 100%;
-    height: 80%;
-    margin-top: 2%;
-  }
-  .seccion-one .seccion-one__container .seccion-one__container--item .btn-seccion-one {
-    width: 50px;
-    align-self: flex-end;
-    margin-bottom: 2%;
-    margin-right: 2%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -460,14 +452,14 @@ html {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
     width: 60%;
-    font-size: 50px;
+    font-size: 40px;
   }
   .container-search-title .container-searcher {
-    width: 50%;
+    width: 30%;
   }
   .container-search-title .searcher {
-    margin-top: 1%;
-    font-size: 20px;
+    margin-top: 15%;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 425px) {
@@ -500,6 +492,28 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.contenedor-imagen-descripcion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jumbotron {
+  background-color: white;
+  box-shadow: 0 2px 5px #888888;
+  border-radius: 2%;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.btn-tipo-producto {
+  margin-top: 50px;
+  width: 100px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
