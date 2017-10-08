@@ -1,0 +1,93 @@
+@media screen and (min-width: 768px){
+
+	.items-social-responsive{
+	
+		display: none;
+
+	}
+
+}
+
+@media screen and (max-width: 767px){
+
+
+
+	.container-fluid{
+
+		.navbar-brand{
+
+			margin-top: 1%;
+		}
+
+		 .navbar-nav{
+
+	      margin-top: 1%;
+	      margin-left: 0;
+
+	    }
+
+	}
+
+
+	.items-social{
+
+
+		display: none;
+
+	}
+
+	.navbar-default .navbar-toggle .icon-bar{
+
+		background-color: gray;
+	}
+
+
+	.navbar-default .navbar-toggle:focus,
+	.navbar-default .navbar-toggle:hover{
+
+		background-color: white;
+
+
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+
+		color: black;
+		font-size: 18px;
+	}
+
+	// .navbar-collapse{
+
+	// 	background-color: white;
+
+	// }
+
+
+	// .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+
+	// 	// color: white;
+
+		
+    
+ //  }
+
+	// .navbar-default .navbar-nav>.open>a,
+	// .navbar-default .navbar-nav>.open>a:focus,
+	// .navbar-default .navbar-nav>.open>a:hover{
+
+	// 	color: steelblue;
+ //        background-color: white;
+	 
+	//  }
+
+		// .navbar-default .navbar-toggle{
+
+
+	// 	// border-color: black;
+
+	// }
+
+
+}
+
+

@@ -1,0 +1,120 @@
+@media screen and (max-width: 1024px){
+
+	
+
+.seccion-productos{
+
+
+
+	.seccion-productos__container{
+
+		
+
+
+
+		.seccion-productos__container--item{
+
+		
+			width: 200px;
+			height: 200px;
+			box-shadow: none;
+
+
+
+			.contenedor-boton-descripcion{
+
+				justify-content: space-around;
+		
+				// align-content:center;
+			}
+
+
+			.descripcion-producto{
+
+				font-size: 22px;
+
+
+			}
+		
+
+				
+
+		}
+		
+
+	}
+
+
+}
+
+
+}
+
+
+@media screen and (max-width: 425px){
+
+.seccion-productos{
+
+
+	.seccion-productos__container{
+
+
+		height: 1500px;
+		flex-direction: column;
+
+
+
+		.seccion-productos__container--item{
+
+			width: 100%;
+			height: 270px;
+			margin-top: 2%;
+
+
+			
+
+		}
+
+	}
+
+
+
+
+
+}
+
+.container-search-title{
+
+	display: flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	// justify-content: space-around;
+	align-items: center;
+	align-content:center;
+	width: 100%;
+	height: 150px;
+	margin-top: 20%;
+
+	.title-productos{
+
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+	width: 60%;
+	font-size: 50px;
+}
+
+	.container-searcher{
+
+		width: 50%;
+	}
+
+	.searcher{
+
+		margin-top: 1%;
+		font-size: 20px;
+	}
+
+}
+
+
+}

@@ -1,0 +1,41 @@
+@media screen and (max-width: 425px){
+
+	.seccion-one{
+
+		.seccion-one__container{
+
+
+			flex-direction: column;
+			height: 300px;
+			justify-content:space-around;
+
+
+			.seccion-one__container--item{
+
+				width: 100%;
+				height: 80%;
+				margin-top: 2%;
+	
+
+				.btn-seccion-one{
+
+						width: 50px;
+						align-self:flex-end;
+						margin-bottom: 2%;
+						margin-right: 2%;
+				}
+
+			}
+
+
+			
+
+		}
+
+	}
+
+
+
+
+
+}

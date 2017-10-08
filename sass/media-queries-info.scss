@@ -1,0 +1,45 @@
+@media screen and (max-width: 425px){
+
+.seccion-info{
+
+	display: flex;
+	// flex-direction:column; //
+	flex-wrap:wrap;
+	// background-color: teal;
+	width: 100%;
+	height: 760px;
+
+
+	.seccion-info__container{
+
+		width: 100%;
+		// height: 100%;
+		// background-color: brown;
+		
+		display: flex;
+		flex-direction:column; //
+		justify-content:space-around;
+		align-items:center;
+
+		
+		.seccion-info__container--item{
+
+			width: 80%; //
+			height: 300px;
+			background-color: white;
+			font-size: 17px;//
+			
+
+
+		}
+
+
+
+
+		}
+
+
+
+}
+
+}

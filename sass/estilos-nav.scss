@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Yanone+Kaffeesatz');
+
+.navbar-default{
+
+  margin-bottom: 10px;
+
+}
+.container-fluid{
+
+  background-color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  height: 20%;
+
+    .navbar-brand{
+
+      color: black;
+      margin-top: 35%;
+      font-size: 40px;
+
+      &:hover{
+
+        color: black;
+
+      }
+
+    }
+
+
+    .navbar-nav{
+
+      margin-top: 5%;
+      margin-left: 3%;
+
+    }
+  
+}
+
+
+  .item_navbar:hover{ box-shadow: 0 2px 0 black;}
+
+
+  .fa-facebook-square:hover{
+
+    color: #3d5b99;
+
+  }
+
+  .fa-twitter-square:hover{
+
+    color:#1da1f2;
+
+  }
+
+
+  .fa-snapchat-square:hover{
+
+    color: #fffc00;
+
+  }
+
+  .fa-instagram:hover{
+
+    color:#db3270
+  }
+
+  .fa-pinterest-square:hover{
+
+    color:#bd081c;
+
+  }
+
+   .fa-google-plus-square:hover{
+
+    color:#bd081c;
+
+  }
+
+  .navbar-default .navbar-nav>li>a{
+
+      color: black;
+
+      &:hover{
+
+        color: black;
+
+      }
+
+  }
+
+
+
+
+ 
+
+  
+
+
+
+ 

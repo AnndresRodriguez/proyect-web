@@ -1,0 +1,505 @@
+@import url("https://fonts.googleapis.com/css?family=Muli|Yanone+Kaffeesatz");
+@import url("https://fonts.googleapis.com/css?family=Muli|Yanone+Kaffeesatz");
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+*:after, *:before {
+  box-sizing: inherit;
+}
+
+.navbar-default {
+  margin-bottom: 10px;
+}
+
+.container-fluid {
+  background-color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  height: 20%;
+}
+.container-fluid .navbar-brand {
+  color: black;
+  margin-top: 35%;
+  font-size: 40px;
+}
+.container-fluid .navbar-brand:hover {
+  color: black;
+}
+.container-fluid .navbar-nav {
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.item_navbar:hover {
+  box-shadow: 0 2px 0 black;
+}
+
+.fa-facebook-square:hover {
+  color: #3d5b99;
+}
+
+.fa-twitter-square:hover {
+  color: #1da1f2;
+}
+
+.fa-snapchat-square:hover {
+  color: #fffc00;
+}
+
+.fa-instagram:hover {
+  color: #db3270;
+}
+
+.fa-pinterest-square:hover {
+  color: #bd081c;
+}
+
+.fa-google-plus-square:hover {
+  color: #bd081c;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: black;
+}
+
+.seccion-one {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.seccion-one .seccion-one__container {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.seccion-one .seccion-one__container .seccion-one__container--item {
+  width: 48%;
+  height: 96%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 0 2px 5px #888888;
+}
+.seccion-one .seccion-one__container .seccion-one__container--item:hover {
+  box-shadow: 0 2px 5px black;
+}
+.seccion-one .seccion-one__container .seccion-one__container--item .btn-seccion-one {
+  width: 50px;
+  align-self: flex-end;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  margin-right: 2%;
+}
+
+.title-marcas {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+.seccion-marcas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.seccion-marcas .seccion-marcas__container {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.seccion-marcas .seccion-marcas__container .seccion-marcas__container--item {
+  width: 270px;
+  height: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  box-shadow: 0 2px 5px #888888;
+  border-radius: 2%;
+}
+.seccion-marcas .seccion-marcas__container .seccion-marcas__container--item:hover {
+  box-shadow: 0 2px 5px black;
+}
+.seccion-marcas .seccion-marcas__container .seccion-marcas__container--item .btn-seccion-marcas {
+  width: 50px;
+  align-self: flex-end;
+  margin-top: 2%;
+}
+
+.seccion-productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.seccion-productos .seccion-productos__container {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.seccion-productos .seccion-productos__container .seccion-productos__container--item {
+  width: 270px;
+  height: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  box-shadow: 0 2px 5px #888888;
+  border-radius: 2%;
+}
+.seccion-productos .seccion-productos__container .seccion-productos__container--item .contenedor-boton-descripcion {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.seccion-productos .seccion-productos__container .seccion-productos__container--item .descripcion-producto {
+  font-size: 25px;
+}
+.seccion-productos .seccion-productos__container .seccion-productos__container--item:hover {
+  box-shadow: 0 2px 5px black;
+}
+.seccion-productos .seccion-productos__container .seccion-productos__container--item .btn-seccion-productos {
+  width: 50px;
+}
+
+.container-search-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 200px;
+  padding-top: 100px;
+}
+.container-search-title .title-productos {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+  width: 60%;
+  font-size: 50px;
+}
+.container-search-title .container-searcher {
+  width: 30%;
+}
+.container-search-title .searcher {
+  margin-top: 7%;
+  font-size: 20px;
+}
+
+.seccion-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.seccion-info .seccion-info__container {
+  width: 100%;
+  height: 600px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.seccion-info .seccion-info__container .seccion-info__container--item {
+  width: 40%;
+  height: 400px;
+  background-color: white;
+  font-size: 27px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .items-social-responsive {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container-fluid .navbar-brand {
+    margin-top: 1%;
+  }
+  .container-fluid .navbar-nav {
+    margin-top: 1%;
+    margin-left: 0;
+  }
+
+  .items-social {
+    display: none;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: gray;
+  }
+
+  .navbar-default .navbar-toggle:focus,
+  .navbar-default .navbar-toggle:hover {
+    background-color: white;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: black;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .seccion-marcas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .seccion-marcas .seccion-marcas__container {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .seccion-marcas .seccion-marcas__container .seccion-marcas__container--item {
+    width: 220px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    box-shadow: none;
+    border-radius: 2%;
+  }
+  .seccion-marcas .seccion-marcas__container .seccion-marcas__container--item:hover {
+    box-shadow: 0 2px 5px black;
+  }
+  .seccion-marcas .seccion-marcas__container .seccion-marcas__container--item .btn-seccion-marcas {
+    width: 50px;
+    align-self: flex-end;
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .seccion-marcas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .seccion-marcas .seccion-marcas__container {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .seccion-marcas .seccion-marcas__container .seccion-marcas__container--item {
+    width: 220px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    box-shadow: none;
+    border-radius: 2%;
+  }
+  .seccion-marcas .seccion-marcas__container .seccion-marcas__container--item:hover {
+    box-shadow: 0 2px 5px black;
+  }
+  .seccion-marcas .seccion-marcas__container .seccion-marcas__container--item .btn-seccion-marcas {
+    width: 50px;
+    align-self: flex-end;
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .seccion-marcas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .seccion-marcas .seccion-marcas__container {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .seccion-marcas .seccion-marcas__container .seccion-marcas__container--item {
+    width: 100%;
+    margin-top: 2%;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .seccion-marcas .seccion-marcas__container .seccion-marcas__container--item .img-responsive {
+    margin-right: 6%;
+  }
+  .seccion-marcas .seccion-marcas__container .seccion-marcas__container--item .btn-seccion-marcas {
+    width: 50px;
+    align-self: flex-end;
+    margin-bottom: 2%;
+    margin-right: 2%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .seccion-marcas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .seccion-marcas .seccion-marcas__container {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .seccion-marcas .seccion-marcas__container .seccion-marcas__container--item {
+    height: 270px;
+    margin-top: 2%;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .seccion-marcas .seccion-marcas__container .seccion-marcas__container--item .btn-seccion-marcas {
+    width: 50px;
+    align-self: flex-end;
+    margin-bottom: 2%;
+    margin-right: 2%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .seccion-one .seccion-one__container {
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+  }
+  .seccion-one .seccion-one__container .seccion-one__container--item {
+    width: 100%;
+    height: 80%;
+    margin-top: 2%;
+  }
+  .seccion-one .seccion-one__container .seccion-one__container--item .btn-seccion-one {
+    width: 50px;
+    align-self: flex-end;
+    margin-bottom: 2%;
+    margin-right: 2%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .seccion-productos .seccion-productos__container .seccion-productos__container--item {
+    width: 200px;
+    height: 200px;
+    box-shadow: none;
+  }
+  .seccion-productos .seccion-productos__container .seccion-productos__container--item .contenedor-boton-descripcion {
+    justify-content: space-around;
+  }
+  .seccion-productos .seccion-productos__container .seccion-productos__container--item .descripcion-producto {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .seccion-productos .seccion-productos__container {
+    height: 1500px;
+    flex-direction: column;
+  }
+  .seccion-productos .seccion-productos__container .seccion-productos__container--item {
+    width: 100%;
+    height: 270px;
+    margin-top: 2%;
+  }
+
+  .container-search-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 150px;
+    margin-top: 20%;
+  }
+  .container-search-title .title-productos {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    width: 60%;
+    font-size: 50px;
+  }
+  .container-search-title .container-searcher {
+    width: 50%;
+  }
+  .container-search-title .searcher {
+    margin-top: 1%;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .seccion-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 760px;
+  }
+  .seccion-info .seccion-info__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .seccion-info .seccion-info__container .seccion-info__container--item {
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    font-size: 17px;
+  }
+}
+.title-redes-sociales-modal {
+  text-align: center;
+}
+
+.contenedor-registro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=estilos.css.map */

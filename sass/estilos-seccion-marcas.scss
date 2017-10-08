@@ -1,0 +1,66 @@
+.title-marcas{
+
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+	font-size: 50px;
+}
+
+.seccion-marcas{
+
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	width: 100%;
+
+
+	.seccion-marcas__container{
+
+		width: 100%;
+		height: 350px;
+		display: flex;
+		
+		justify-content:space-around;
+		// flex-wrap: wrap;
+		align-items:center;
+		// background-color: silver;
+
+
+
+		.seccion-marcas__container--item{
+
+			width: 270px;
+			height: 270px;
+			display: flex;
+			flex-wrap:wrap;
+			flex-direction: row;
+			justify-content:flex-end;
+			box-shadow: 0 2px 5px #888888;
+			border-radius: 2%;
+			// opacity: .7;
+
+
+			&:hover{
+
+					box-shadow: 0 2px 5px black;
+					
+			}
+
+
+
+			.btn-seccion-marcas{
+
+					width: 50px;
+					// height: 50px;
+					align-self:flex-end;
+					// margin-bottom: 6%;
+					margin-top: 2%;
+
+			}
+
+		}
+
+
+	}
+
+
+}

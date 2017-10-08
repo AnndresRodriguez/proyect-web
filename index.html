@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parcial Web</title>
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">La Feria</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="item_navbar"><a class="item_navbar__link" href="#">Hombres</a></li>
+        <li class="item_navbar"><a class="item_navbar__link" href="#">Mujeres</a></li>
+        <li class="item_navbar"><a class="item_navbar__link" href="#">Niños</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav pull-right items-social">
+        <li class="item_navbar-social"><a class="item_navbar__link" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+        <li class="item_navbar-social"><a class="item_navbar__link" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+        <li class="item_navbar-social"><a class="item_navbar__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li class="item_navbar-social"><a class="item_navbar__link" href="#">
+          <i class="fa fa-snapchat-square" aria-hidden="true"></i></a></li>
+        <li class="item_navbar-social"><a class="item_navbar__link" href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
+        <li class="item_navbar-social"><a class="item_navbar__link" href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
+        
+      </ul>
+
+      <ul class="nav navbar-nav  items-social-responsive">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Redes Sociales <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+           <li class="item_navbar-social"><a class="item_navbar__link" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp &nbsp &nbsp Facebook</a></li>
+        <li class="item_navbar-social"><a class="item_navbar__link" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp &nbsp &nbsp Twitter</a></li>
+        <li class="item_navbar-social"><a class="item_navbar__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp &nbsp &nbsp Instagram</a></li>
+        <li class="item_navbar-social"><a class="item_navbar__link" href="#">
+          <i class="fa fa-snapchat-square" aria-hidden="true"></i>&nbsp &nbsp &nbsp Snapchat</a></li>
+        <li class="item_navbar-social"><a class="item_navbar__link" href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i>&nbsp &nbsp &nbsp Pinterest</a></li>
+        <li class="item_navbar-social"><a class="item_navbar__link" href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp &nbsp &nbsp Crear una cuenta</a></li>
+           
+          </ul>
+        </li>
+
+        </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/feria4.jpg" alt="...">
+      <!-- <div class="carousel-caption">
+        ...
+      </div> -->
+    </div>
+    <div class="item">
+      <img src="img/productos-innovadores-como-regalos-de-calidad.png" alt="...">
+     <!--  <div class="carousel-caption">
+        ...
+      </div> -->
+    </div>
+
+     <div class="item">
+      <img src="img/feria4.jpg" alt="...">
+     <!--  <div class="carousel-caption">
+        ...
+      </div> -->
+    </div>
+  </div>
+</div>
+
+  <section class="container seccion-one">
+    
+    <div class="seccion-one__container">
+
+        <div class="seccion-one__container--item">
+            <img src="img/feria.moda-1.jpg" class="img-responsive">
+            <button class="btn btn-primary btn-seccion-one">Ver</button>    
+        </div>
+
+        <div class="seccion-one__container--item">
+          <img src="img/feria.moda-2.jpg" class="img-responsive">
+          <button class="btn btn-primary btn-seccion-one">Ver</button>
+        </div>
+      
+
+    </div>
+
+    <div class="seccion-one__container">
+
+       <div class="seccion-one__container--item">
+          <img src="img/feria.moda-3.jpg" class="img-responsive">
+          <button class="btn btn-primary btn-seccion-one">Ver</button>
+        </div>
+
+        <div class="seccion-one__container--item">
+          <img src="img/feria.moda-4.jpg" class="img-responsive">
+          <button class="btn btn-primary btn-seccion-one">Ver</button>
+        </div>
+      
+
+    </div>
+
+  </section>
+
+  <h1 class="title-marcas">Marcas</h1>
+
+
+  <section class="container seccion-marcas">
+    
+    <div class="seccion-marcas__container">
+
+        <div class="seccion-marcas__container--item item__mussi">
+            <img src="img/mussi-logo-el-tesoro.png" class="img-responsive">
+            <button class="btn btn-primary btn-seccion-marcas">Ver</button>    
+        </div>
+
+        <div class="seccion-marcas__container--item item__bossi">
+           <img src="img/bossi.png" class="img-responsive">
+          <button class="btn btn-primary btn-seccion-marcas">Ver</button>
+        </div>
+
+        <div class="seccion-marcas__container--item item__velez">
+           <img src="img/velez.jpg" class="img-responsive">
+          <button class="btn btn-primary btn-seccion-marcas">Ver</button>
+        </div>
+
+        <div class="seccion-marcas__container--item item__nautica">
+          <img src="img/nautica.jpg" class="img-responsive">
+          <button class="btn btn-primary btn-seccion-marcas">Ver</button>
+        </div>
+      
+
+    </div>
+
+
+    <div class="seccion-marcas__container">
+
+        <div class="seccion-marcas__container--item item__oakley">
+            <img src="img/tirables-y-cristales-oakley.jpg" class="img-responsive">
+            <button class="btn btn-primary btn-seccion-marcas">Ver</button> 
+        </div>
+
+        <div class="seccion-marcas__container--item item__mh">
+          <img src="img/mario-hernandez.jpg" class="img-responsive">
+          <button class="btn btn-primary btn-seccion-marcas">Ver</button>
+
+        </div>
+
+        <div class="seccion-marcas__container--item item__puma">
+          <img src="img/puma.jpg" class="img-responsive">
+          <button class="btn btn-primary btn-seccion-marcas">Ver</button>
+        </div>
+
+        <div class="seccion-marcas__container--item item__adiddas">
+          <img src="img/adidas.jpg" class="img-responsive">
+          <button class="btn btn-primary btn-seccion-marcas">Ver</button>
+        </div>
+      
+
+    </div>
+
+  </section>
+
+
+    <div class="container-search-title">
+        
+       <h1 class="title-productos">Productos</h1>
+
+       <div class="form-group container-searcher">
+         <input type="text" class="form-control searcher" placeholder="Buscar Producto">
+       </div>
+
+    </div>
+
+ 
+  
+
+
+
+  <section class="container seccion-productos">
+    
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+
+            <img src="img/zapatos-vestir.jpg" class="img-responsive">
+            
+            <div class="contenedor-boton-descripcion">
+              
+             <p class="descripcion-producto">Zapatos de vestir</p>
+             <button class="btn btn-primary btn-seccion-productos">Ver</button>  
+
+            </div>
+
+             
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/zapatos-deportivos.jpg" class="img-responsive">
+
+           <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Zapatos deportivos</p>
+          <button class="btn btn-primary btn-seccion-productos">Ver</button>
+          </div>
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/tacones.jpg" class="img-responsive">
+
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Tacones</p>
+          <button class="btn btn-primary btn-seccion-productos">Ver</button>
+          </div>
+
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/baletas.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Baletas</p>
+          <button class="btn btn-primary btn-seccion-productos">Ver</button>
+           </div>
+        </div>
+      
+
+    </div>
+
+
+    <div class="seccion-productos__container">
+
+        <div class="seccion-productos__container--item">
+           <img src="img/mocasines.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+             <p class="descripcion-producto">Mocasines</p>
+            <button class="btn btn-primary btn-seccion-productos">Ver</button> 
+          </div>   
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/botas-militares.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Botas</p>
+          <button class="btn btn-primary btn-seccion-productos">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/sandalias.jpg" class="img-responsive">
+          <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Sandalias</p>
+          <button class="btn btn-primary btn-seccion-productos">Ver</button>
+          </div> 
+        </div>
+
+        <div class="seccion-productos__container--item">
+          <img src="img/pantuflas.jpg" class="img-responsive">
+            <div class="contenedor-boton-descripcion">
+          <p class="descripcion-producto">Pantuflas</p>
+          <button class="btn btn-primary btn-seccion-productos">Ver</button>
+          </div>
+        </div>
+      
+
+    </div>
+
+
+
+  </section>
+
+  <section class="container seccion-info">
+    
+    <div class="seccion-info__container">
+
+        <div class="seccion-info__container--item">
+
+          <h1>ACERCA DE LA FERIA</h1>
+
+          <h2>¿Quiénes Somos?</h2>
+
+          <p>Somos una empresa dedicada a dar visibilidad a los productores del calzado y mostrar nuestro talento a nivel nacional e internacional</p>
+
+          <address>contacto@feria.com <br> 3138789845-3134556787 <br>Cúcuta-Colombia</address>
+
+              
+        </div>
+
+        <div class="seccion-info__container--item">
+          <h1>Contacto</h1>
+
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Nombre</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese su nombre y apellido">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Correo electrónico</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="micorreo@midominio.com">
+              </div> 
+              <div class="form-group">
+                <label for="comment">Mensaje</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>    
+              <button type="submit" class="btn btn-primary">Contactar</button>
+            </form>
+        </div>
+
+
+    </div>
+
+
+  </section>
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Registro de Usuario</h4> 
+        </div>
+        <div class="modal-body">
+          
+          <div class="contenedor-modal">
+            
+             <img src="img/sb-headers-categorias-moda.jpg" class="img-responsive">
+            
+
+            
+               
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Nombre de Usuario o Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+
+                  <p class="help-block"><a href="#">¿Olvidó su nombre de Usuario?</a></p>
+                  <p class="help-block"><a href="#">¿Olvidó su contraseña?</a></p>
+               
+                  <button type="submit" class="btn btn-primary">Entrar</button>
+                </form>
+
+              <h3 class="title-redes-sociales-modal">También puedes acceder a través de tus redes sociales</h3>
+
+              <div class="contenedor-registro">
+
+                  <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                  <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                  <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
+
+             </div>
+
+
+
+
+          </div>
+
+
+
+        </div>
+       <!--  <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div> -->
+      </div>
+      
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <p>Copyright &copy La Feria 2017</p>
+  </footer>
+
+
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
